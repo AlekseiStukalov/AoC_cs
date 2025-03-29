@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Y2024\Y2024.csproj" />
+    <ProjectReference Include="..\Y2023\Y2023.csproj" />
+    <ProjectReference Include="..\Y2022\Y2022.csproj" />
+    <ProjectReference Include="..\Y2021\Y2021.csproj" />
+    <ProjectReference Include="..\Y2020\Y2020.csproj" />
+  </ItemGroup>
+</Project>
